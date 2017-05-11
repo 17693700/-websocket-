@@ -1,0 +1,1188 @@
+2015-11-12 21:24:28 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-11-12 21:24:28 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-11-12 21:24:28 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-11-12 21:24:28 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-11-12 21:24:31 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-11-12 21:24:31 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-11-12 21:24:32 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-11-12 21:24:32 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-12 10:49:19 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-12 10:49:19 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-12 10:49:19 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-12 10:49:19 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-12 10:49:20 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-12 10:49:20 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-12 10:49:21 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-12 10:49:21 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-12 10:49:23 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-12 10:49:23 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-12 10:49:27 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-12 10:49:27 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-12 10:49:29 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-12 10:49:29 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-13 03:38:10 exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.1.139 $message:{"type":"login","name":"shijianfen","content":"hello"}' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:64
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 05:55:50 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:01:28 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:01:50 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:01:51 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:01:52 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:03:11 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:03:12 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:03:12 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-13 06:03:12 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-13 06:03:20 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:03:21 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:03:23 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:03:23 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-13 06:03:23 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-13 06:03:34 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:03:35 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:03:37 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:03:37 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:03:40 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:03:42 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:03:43 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:03:45 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:03:46 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:03:46 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:03:46 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-13 06:03:46 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-13 06:07:57 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:07:57 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-13 06:08:26 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:08:26 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-13 06:08:50 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:08:52 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:08:54 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:08:55 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:09:08 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:09:10 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 06:09:12 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\1\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:17:06 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:24:13 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:24:14 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:24:19 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:29:08 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:29:09 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:29:09 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-13 07:29:09 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-13 07:30:16 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:30:18 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:30:26 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:43:57 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:47:24 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:47:26 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:49:00 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:49:03 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:49:05 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:49:05 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-13 07:49:05 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-13 07:49:56 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:49:57 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-13 07:49:57 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-13 07:50:39 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:50:43 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:50:45 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:50:47 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:51:15 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:51:15 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:51:28 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:51:38 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:55:33 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:56:51 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:56:51 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-13 07:56:51 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-13 07:57:01 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:57:05 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:57:07 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:57:10 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:57:13 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:59:44 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 07:59:47 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 08:01:48 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 08:02:27 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 08:02:27 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-13 08:02:27 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2016-07-13 08:04:40 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 08:06:28 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 08:06:30 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 08:06:31 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 08:06:58 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 08:08:22 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 08:09:02 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 08:09:52 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 08:10:13 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 08:23:27 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 08:23:53 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 08:25:18 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 08:26:20 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 08:31:49 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-13 08:31:52 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.1.139' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat-for-win-master\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-19 07:26:36 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:127.0.0.1' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}
+2016-07-19 07:26:39 exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:127.0.0.1' in D:\ruanjian\wamp\www\websocket_chat\workerman-chat\Applications\Chat\Events.php:96
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 D:\ruanjian\wamp\www\websocket_chat\workerman-chat\GatewayWorker\BusinessWorker.php(360): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"login"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\ruanjian\wamp\www\websocket_chat\workerman-chat\Workerman\Connection\TcpConnection.php(423): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\ruanjian\wamp\www\websocket_chat\workerman-chat\Workerman\Events\Select.php(237): call_user_func_array(Array, Array)
+#6 D:\ruanjian\wamp\www\websocket_chat\workerman-chat\Workerman\Worker.php(745): Workerman\Events\Select->loop()
+#7 D:\ruanjian\wamp\www\websocket_chat\workerman-chat\GatewayWorker\BusinessWorker.php(174): Workerman\Worker->run()
+#8 D:\ruanjian\wamp\www\websocket_chat\workerman-chat\Workerman\Worker.php(433): GatewayWorker\BusinessWorker->run()
+#9 D:\ruanjian\wamp\www\websocket_chat\workerman-chat\Workerman\Worker.php(346): Workerman\Worker::runAllWorkers()
+#10 D:\ruanjian\wamp\www\websocket_chat\workerman-chat\Applications\Chat\start_businessworker.php(34): Workerman\Worker::runAll()
+#11 {main}

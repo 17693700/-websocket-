@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+   <script type="text/javascript" src="/js/swfobject.js"></script>
+   <script type="text/javascript" src="/js/web_socket.js"></script>
+   <script type="text/javascript" src="/js/jquery.min.js"></script>
+   <style type="text/css">
+      #emoji{
+        width:193px;
+        height:193px;
+        position:absolute;
+        top:650px;
+        left:1190px;
+        display:none;
+      }
+      .smallemojiclass{
+        width:22px;
+        height:22px;
+        float: left;
+        padding:1px;
+      }
+      #content{
+          border:#D6D6D6 1px solid;
+          width:70%;
+          height:50px;
+          display: block;
+          float:left;
+       }
+      #biaoqing{
+        display: block;
+        position:absolute;
+        left:1300px;
+      }
+   </style>
+   <script type="text/javascript">
+ 	 if (typeof console == "undefined") {    this.console = { log: function (msg) {  } };}
+    WEB_SOCKET_SWF_LOCATION = "/swf/WebSocketMain.swf";
+    WEB_SOCKET_DEBUG = true;
+    var ws, name, client_list={};
+    window.onload=function (){
+      //name = prompt('输入你的名字：', '');
+      if(!name || name=='null'){  
+          var random=Math.round(Math.random()*1000);
+          name = '游客'+random;
+      }
+      getid('zhengwen').innerHTML+='<p>'+name+'上线了！</p>';
+
+      getid('biaoqing').onclick=function(){
+        if(getid('emoji').style.display=="block"){
+            getid('emoji').style.display="none";
+        }
+        else{
+          getid('emoji').style.display="block";
+        }
+      }
+
+      
+      
+
+
+
+      ws = new WebSocket("ws://127.0.0.1:7272"); //websocket建立连接
+      ws.onopen = onopen;
+      ws.onmessage = onmessage;
+      ws.onerror = function() {
+       	  alert("出现错误");
+      };
+      function onopen(){          //发送数据
+        
+        send.onclick=function(){
+          var content=encodeURIComponent(getid('content').innerHTML);
+          //alert(content);
+          ws.send('{"type":"login","name":"'+name+'","content":"'+content+'"}');
+        } 
+      }
+      function onmessage(e){      //接收数据
+      	var data = eval("("+e.data+")");
+      	switch(data.type){
+      		case 'login' :
+          var msg = decodeURIComponent(data.content);
+      	  getid('zhengwen').innerHTML+='<p>'+data.name+'说:&nbsp;'+msg+'</p>';
+          getid('content').innerHTML='';
+      	}
+      }
+
+      
+    }
+   </script>
+</head>
+<body>
+  <br/><br/>
+  <div id="zhengwen" style="width:100%;height:800px;margin:0 auto;border:#D6D6D6 1px solid;">
+    <p id='showname'></p>
+  </div>
+  <br/>
+  <form onsubmit="return false;">
+    <div id="content" contenteditable="true"></div>
+    <div id="emoji">
+      <script type="text/javascript">
+        for(var i=1;i<60;i++){
+          document.write('<div class="smallemojiclass" id="emoji_'+i+'" onclick="check(this.innerHTML)"><img src="images/emo_'+i+'.gif"/></div>'); 
+        }
+        function check(inner){
+            //alert(inner);
+            getid('content').innerHTML+=inner;
+        }
+      </script>
+    </div>
+    <a href="javascript:void(0);" id="biaoqing">表情</a>
+    <input type="submit" id='send' style="width:70px;height:50px;" value="发送"/>
+  </form>
+</body>
+<script>
+  function getid(x){
+    return document.getElementById(x);
+  }
+</script>
+</html>
